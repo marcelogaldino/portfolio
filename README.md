@@ -1,4 +1,4 @@
-# PORTFOLIO - MARCELO GALDINO
+# PORTFOLIO - MARCELO GALDINO (in construction)
 
 <p align="center">
     <img src="about.png">
