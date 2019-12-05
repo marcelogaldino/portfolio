@@ -1,7 +1,11 @@
 # PORTFOLIO - MARCELO GALDINO
 
 <p align="center">
-Portfolio | Web developer focusing learn new web technologys in order to reach full stack skills. Chosen stack -> HTML, CSS, Javascript, ReactJS, React Native and NodeJS.
+    <img src="about.png">
+</p>
+
+<p align="center">
+Portfolio - Marcelo Galdino | Web developer focusing learn new web technologys in order to reach full stack skills. Chosen stack -> HTML, CSS, Javascript, ReactJS, React Native and NodeJS.
 
 <br>
 <br>
