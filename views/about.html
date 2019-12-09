@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Marcelo Galdino</title>
+{% block head %} 
+    <title>About | Marcelo Galdino</title>
+{% endblock %}
 
-    <link rel="stylesheet" href="/style.css">
-</head>
-
-<body>
-    <header>
-        <div class="links">
-            <a href="/">Sobre</a>
-            <a href="/portfolio">Artigos</a>
-        </div>
-    </header>
+{% block content %}
 
     <div id="wrapper">
         <img src="https://avatars3.githubusercontent.com/u/13842365?s=460&v=4" alt="Marcelo Galdino">
@@ -32,6 +19,5 @@
         <a href="https://twitter.com/oficialmarcelog/" target="_blank">Twitter</a>
         <a href="https://www.linkedin.com/in/marcelogaldino/" target="_blank">Linkedin</a>
     </div>
-</body>
 
-</html>
+    {% endblock %}

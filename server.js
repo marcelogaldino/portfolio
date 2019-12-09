@@ -12,7 +12,7 @@ nunjucks.configure("views", {
 })
 
 server.get("/", function(req, res) {
-    res.render("index")
+    res.render("about")
 })
 
 server.get("/portfolio", function(req, res) {

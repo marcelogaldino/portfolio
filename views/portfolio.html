@@ -1,24 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marcelo Galdino</title>
-    
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-</head>
+{% block head %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<body>
-    <header>
-        <div class="links">
-            <a href="/">Sobre</a>
-            <a href="/portfolio">Artigos</a>
-        </div>
-    </header>
+    <title>Portfolio | Marcelo Galdino</title>
+{% endblock %}
+
+{% block content %}
 
     <div id="wrapper">
         <h1>Artigos</h1>
@@ -142,7 +130,6 @@
         </div>
     </div>
 
-    <script src="/Fase02/Modulo02/script.js"></script>
-</body>
+    <script src="/script.js"></script>
 
-</html>
+{% endblock %}
