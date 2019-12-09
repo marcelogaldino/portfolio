@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r Portfolio | Web developer focusing learn new web technologys in order to reach full stack skills. Chosen stack -> HTML, CSS, Javascript, ReactJS, React Native and NodeJS.",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
