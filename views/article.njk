@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+    <title>{{ item.title }}</title>
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper" class="video">
+        <h1>{{ item.title }}</h1>
+    </div>
+
+    <section class="article" >
+
+        <div class="card">
+            <div class="card__article-container">
+                <iframe src="https://medium.com/@oficialmarcelog/afinal-o-que-e-javascrpit-b684542dbab3?source=friends_link&sk=61a17e9ac0e89aae8c5065ed3dd2d2a8" frameborder="0"></iframe>
+            </div>
+        
+            <div class="card__content">
+                <p>{{ item.title }}</p>
+            </div>
+        
+            <div class="card__info">
+                <p>{{ item.duration }}</p>
+                <p class="card__price">{{ item.price }}</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="/script.js"></script>
+
+{% endblock %}
