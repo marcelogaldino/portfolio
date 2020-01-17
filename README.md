@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Portfolio - Marcelo Galdino | Web developer focusing learn new web technologys in order to reach full stack skills. Chosen stack -> HTML, CSS, Javascript, ReactJS, React Native and NodeJS.
+Portfolio - Marcelo Galdino | Web developer focusing in learning new web technologies, in order to reach full stack skills. Chosen stack -> HTML, CSS, Javascript, ReactJS, React Native and NodeJS.
 
 <br>
 <br>
